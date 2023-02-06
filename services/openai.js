@@ -24,7 +24,6 @@ instance.interceptors.request.use((c) => {
   return c;
 });
 
-
 const createCompletion = ({
   model = config.OPENAI_COMPLETION_MODEL,
   prompt,
